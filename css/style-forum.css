@@ -1,0 +1,194 @@
+body {
+    padding-top: 70px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+/* --- node_link.css --- */
+
+/* tbd */
+.nodeTitle {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 166, 223);
+    padding: 15px 12px;
+}
+span.forumtitle
+{
+  font-weight: bold;
+
+}
+img.icon-file {
+  width: 30px;
+  height: 30px;
+}
+.breadcrumb { font-weight:bold; background-color: #FFF;}
+
+td.no { width:10px; padding:5px; }
+td.icon { width:20px;}
+td.status { width: 10%; }
+td.decription { width:35% }
+td.latest { width:15%; }
+td.repliles { width:15%;}
+td.started  { width:12%; }
+span.discussion { font-size: 12px; color:rgb(150,150,150); font-variant: inherit;}
+input#inputtext.form-control { width: 100%; }
+.pageNav { font-size: 13px;
+    padding: 2px 0;
+    overflow: hidden;
+    zoom: 1;
+    line-height: 24px;
+    word-wrap: normal;
+    min-width: 150px;
+    white-space: nowrap;
+  }
+.pageNavHeader {
+  display: block;
+  float: left;
+  margin-right: 3px;
+  padding: 1px 0; }
+.PageNav a:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(46, 53, 57);
+    border-color: rgb(46, 53, 57);
+}
+.PageNav a.text {
+    width: auto !important;
+    padding: 0 4px;
+}
+
+
+
+@media (max-width:610px)
+{
+	.Responsive .node .nodeText
+	{
+		margin-right: 0;
+	}
+
+	.Responsive.Touch .node .nodeDescriptionTooltip,
+	.Responsive .node .nodeDescription
+	{
+		display: none;
+	}
+
+	.Responsive .node .nodeLastPost
+	{
+		position: static;
+		height: auto;
+		width: auto;
+		background: none;
+		border: none;
+		padding: 0;
+		margin: -8px 0 10px 44px;
+	}
+
+		.Responsive .node .nodeLastPost .noMessages
+		{
+			display: none;
+		}
+
+		.Responsive .node .nodeLastPost .lastThreadTitle,
+		.Responsive .node .nodeLastPost .lastThreadUser
+		{
+			display: none;
+		}
+
+		.Responsive .node .nodeLastPost .lastThreadDate:before
+		{
+			content: attr(data-latest);
+		}
+
+	.Responsive .node .nodeControls
+	{
+		display: none;
+	}
+
+	.Responsive .node .subForumList
+	{
+		display: none;
+	}
+
+	.Responsive .nodeDescriptionTip
+	{
+		width: auto;
+		max-width: 350px;
+	}
+}
+
+@media (max-width:480px)
+{
+	.Responsive .subForumsPopup
+	{
+		display: none;
+	}
+}
+
+
+/* --- node_page.css --- */
+
+.nodeList .page .nodeText
+{
+	margin-right: 10px;
+}
+
+/* --- sidebar_share_page.css --- */
+
+.sidebar .sharePage .shareControl
+{
+	margin-top: 10px;
+	min-height: 23px;
+}
+
+.sidebar .sharePage iframe
+{
+	width: 200px;
+	height: 20px;
+}
+
+.sidebar .sharePage iframe.fb_ltr
+{
+	_width: 200px !important;
+}
+
+.sidebar .sharePage .facebookLike iframe
+{
+	z-index: 52;
+}
+
+.mast .sharePage .secondaryContent
+{
+	overflow: visible !important;
+}
+
+
+
+
+@media (max-width:480px)
+{
+	.Responsive .sidebar .sharePage
+	{
+		display: none;
+	}
+}
