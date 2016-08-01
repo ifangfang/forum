@@ -11,6 +11,7 @@
     <title>FORUM CASCAP | Design V.1</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style-forum.css" rel="stylesheet">
+    <link href="css/message.css" rel="stylesheet">
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
@@ -50,130 +51,28 @@
       <h2>Main Forum</h2>
       <hr>
 <p>Home > Forums > Main Forum > <span class="breadcrumb"> View Post</span>  </p>
+<div class="row">
+  <div class="col-md-12"><h3 class="nodeTitle">View Post</h3></div>
+</div>
+<div class="row">
+  <div class="col-md-3">
+    <img src="images/avatar.jpg" title="avatar" width="80px"/>
 
-<form action="index.php?inline-mod/post/switch" method="post" class="InlineModForm section" data-cookiename="posts" data-controls="#InlineModControls" data-imodoptions="#ModerationSelect option">
-
-	<ol class="messageList" id="messageList">
-
-
-
-
-
-<li id="post-338" class="message  staff " data-author="PixelGoose">
-
-
-
-<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
-<div class="messageUserBlock">
-
-		<div class="avatarHolder">
-			<span class="helper"></span>
-			<a href="index.php?members/pixelgoose.1/" class="avatar Av1m" data-avatarhtml="true"><img src="data/avatars/m/0/1.jpg?1405262316" width="96" height="96" alt="PixelGoose"></a>
-			<!-- slot: message_user_info_avatar -->
-		</div>
-
-
-
-
-		<h3 class="userText">
-			<a href="index.php?members/pixelgoose.1/" class="username" dir="auto" itemprop="name">PixelGoose</a>
-			<em class="userTitle" itemprop="title">Administrator</em>
-			<em class="userBanner bannerStaff wrapped" itemprop="title"><span class="before"></span><strong>Staff Member</strong><span class="after"></span></em>
-			<!-- slot: message_user_info_text -->
-		</h3>
-
-
-
-
-
-
-	<span class="arrow"><span></span></span>
+  </div>
+<div class="col-md-9">
+<b>รายละเอียด</b>
+<p>
+  รายละเอียดการขอความช่วยเหลือ
+  อาจารย์คะ รบกวนสอบถามข้อมูลค่ะ กรณีของ รพ.เชียงคำ อ.เชียงคำ จ.พะเยา
+  ที่ตรวจอัลตร้าซาวด์กลุ่มเสี่ยงที่อาศัยอยู่ในอำเภอภูซาง จำนวน 15 เคส แล้วพบว่า รายงานตัวเลขปรากฎที่ รพ.สต.ภูซาง
+  เลยงงว่าทั้งๆที่ตอนลงข้อมูลตรวจอัลตร้าซาวด์เป็นรหัสหน่วยบริการของ รพ.เชียงคำ แต่ทำไมถึงไปปรากฎตัวเลขของ รพ.สต.ภูซาง ขอบคุณมากค่ะ
+</p>
 </div>
 </div>
 
-	<div class="messageInfo primaryContent">
 
 
 
-
-
-		<div class="messageContent">
-			<article>
-				<blockquote class="messageText ugc baseHtml">
-
-					Today, we are pleased to release XenForo 1.5.9. This release fixes a number of bugs and issues that were found since the release of 1.5.8. As this is a maintenance release, the vast majority of the focus was an increase in stability.<br>
-<br>
-Some of the bugs fixed in 1.5.9 include:<br>
-<ul>
-<li>Improved compatibility with upcoming PHP 7.1 release.</li>
-<li>Add basic email typo detection for specific cases to reduce false positives with StopForumSpam checks.</li>
-<li>Indicate when a StopForumSpam result is from a...</li>
-</ul><br>
-<a href="https://xenforo.com/community/threads/xenforo-1-5-9-released.118892/" target="_blank" class="externalLink">XenForo 1.5.9 Released</a><br>
-<br>
-<a href="https://xenforo.com/community/threads/xenforo-1-5-9-released.118892/" target="_blank" class="externalLink">Continue reading...</a>
-				</blockquote>
-			</article>
-
-
-		</div>
-
-
-
-
-
-
-
-
-		<div class="messageMeta ToggleTriggerAnchor">
-
-			<div class="privateControls">
-
-				<span class="item muted">
-					<span class="authorEnd"><a href="index.php?members/pixelgoose.1/" class="username author" dir="auto">PixelGoose</a>,</span>
-					<a href="index.php?threads/xenforo-1-5-9-released.300/" title="Permalink" class="datePermalink"><abbr class="DateTime" data-time="1469536219" data-diff="240879" data-datestring="Jul 26, 2016" data-timestring="1:30 PM" title="Jul 26, 2016 at 1:30 PM">Tuesday at 1:30 PM</abbr></a>
-				</span>
-
-
-
-
-
-
-
-
-
-
-
-			</div>
-
-			<div class="publicControls">
-				<a href="index.php?threads/xenforo-1-5-9-released.300/" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="index.php?posts/338/permalink">#1</a>
-
-
-
-
-			</div>
-		</div>
-
-
-		<div id="likes-post-338"></div>
-	</div>
-
-
-
-
-
-</li>
-
-
-
-	</ol>
-
-
-
-	<input type="hidden" name="_xfToken" value="">
-
-</form>
 
 
 

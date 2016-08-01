@@ -30,12 +30,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">FORUM CASCAP</a>
+                <a class="navbar-brand" href="index.php">FORUM CASCAP</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">FORUM</a>  </li>
+                    <li><a href="forumlist.php">FORUM</a>  </li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
@@ -49,7 +49,8 @@
     <div class="container">
       <h2>Main Forum</h2>
       <hr>
-<p>Home > Forums > Main Forum > <span class="breadcrumb"> New Post</span>  </p>
+<p>Home > <a href="index.php"> Forums </a> > <a href="forumlist.php"> Main Forum </a>
+  > <span class="breadcrumb"> New Post</span>  </p>
 
 <form class="form-horizontal">
   <div class="form-group">
@@ -73,7 +74,7 @@
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-primary">Submit</button>
+    <a href="viewpost.php"><button type="submit" class="btn btn-primary">Submit</button></a>
       <button type="submit" class="btn btn-warning">Cancel</button>
     </div>
   </div>

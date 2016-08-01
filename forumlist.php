@@ -30,12 +30,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">FORUM CASCAP</a>
+                <a class="navbar-brand" href="index.php">FORUM CASCAP</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">FORUM</a>  </li>
+                    <li><a href="forumlist.php">FORUM</a>  </li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
@@ -50,7 +50,7 @@
       <h2>Main Forum</h2>
       <hr>
 <p>Home > Forums > <span class="breadcrumb"> Main Forum </span>  </p>
-<button type="button" class="btn btn-info">New Post</button>
+<a href="newpost.php"><button type="button" class="btn btn-info">New Post</button></a>
 <div class="row">
   <div class="col-md-12">
 <h3 class="nodeTitle">Main Category</h3>
@@ -72,7 +72,7 @@
             <tr>
               <td class="no">1</td>
               <td class="icon"><img src="images/question.png" class="icon-file"/></td>
-              <td class="description">Main Forum<br><span class="discussion">view ' ' </span></td>
+              <td class="description"><a href="viewpost.php">Main Forum</a><br><span class="discussion">view ' ' </span></td>
               <td class="started"><span class="discussion">Date: DD/MM/YYYY </td>
               <td class="repliles">By User User</td>
               <td class="latest">Latest: Admin Admin <br> <span class="discussion"> Dated: 01/01/2016 </span> </td>
