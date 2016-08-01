@@ -54,13 +54,19 @@
 <div class="row">
   <div class="col-md-12"><h3 class="nodeTitle">View Post</h3></div>
 </div>
+<!-- Post Owner -->
 <div class="row">
-  <div class="col-md-3">
+  <div class="col-md-3"><center>
     <img src="images/avatar.jpg" title="avatar" width="80px"/>
+    <p id="author">By: User User</p>
+<span class="glyphicon glyphicon-info-sign"> 08123456789</span>
+<p id="datepost"><img src="images/email.png" width="20px"/> email@email.com </p>
+<p id="datepost">Fri Jul 30, 2016 9:26 pm</p></center>
 
   </div>
 <div class="col-md-9">
 <b>รายละเอียด</b>
+<hr>
 <p>
   รายละเอียดการขอความช่วยเหลือ
   อาจารย์คะ รบกวนสอบถามข้อมูลค่ะ กรณีของ รพ.เชียงคำ อ.เชียงคำ จ.พะเยา
@@ -69,10 +75,87 @@
 </p>
 </div>
 </div>
-
-
-
-
+<hr>
+<!-- Answer -->
+<h3 class="nodeTitlereply">Repliles</h3>
+<div class="row">
+  <div class="col-md-3"><center>
+  <img src="images/avatar.jpg" title="avatar" width="80px"/>
+  <p id="author">By: User User</p>
+  <p id="datepost">Fri Jul 30, 2016 10:00 pm</p></center>
+  </div>
+  <div class="col-md-9">
+  <b>แสดงความคิดเห็น</b>
+  <hr>
+  <p>
+  ตอบแสดงความคิดเห็น
+  </p>
+  </div>
+</div>
+<!-- Answer -->
+<hr>
+<div class="row">
+  <div class="col-md-3"><center>
+  <img src="images/avatar.jpg" title="avatar" width="80px"/>
+  <p id="author">By: User User</p>
+  <p id="datepost">Fri Jul 30, 2016 10:00 pm</p></center>
+  </div>
+  <div class="col-md-9">
+  <b>แสดงความคิดเห็น</b>
+  <hr>
+  <p>
+  ตอบแสดงความคิดเห็น <br>
+  <img src="http://atthetartan.ca/wp-content/uploads/2016/01/question.png" width="300px" />
+  </p>
+  </div>
+</div>
+<!-- Answer -->
+<hr>
+<div class="row">
+  <div class="col-md-3"><center>
+  <img src="images/avatar.jpg" title="avatar" width="80px"/>
+  <p id="author">By: User User</p>
+  <p id="datepost">Fri Jul 30, 2016 10:00 pm</p></center>
+  </div>
+  <div class="col-md-9">
+  <b>แสดงความคิดเห็น</b>
+  <hr>
+  <p>
+  ตอบแสดงความคิดเห็น
+  <p class="quote"> "อ้างจาก : ที่ตรวจอัลตร้าซาวด์กลุ่มเสี่ยงที่อาศัยอยู่ในอำเภอภูซาง จำนวน 15 เคส แล้วพบว่ารายงานตัวเลขปรากฎที่ รพ.สต.ภูซาง
+  เลยงงว่าทั้งๆที่ตอนลงข้อมูลตรวจอัลตร้าซาวด์เป็นรหัสหน่วยบริการของ รพ.เชียงคำ แต่ทำไมถึงไปปรากฎตัวเลขของ รพ.สต.ภูซาง" </p>
+  </p>
+  </div>
+</div>
+<!-- Comment -->
+<hr>
+<h3 class="nodeTitlecomment">Comment</h3>
+<div class="row">
+  <div class="col-md-3">
+    <div class="form-group">
+      <label for="inputdescrition">รายละเลียด :</label>
+      <center><img src="images/avatar.jpg" title="avatar" width="80px"/>
+      <p id="author">By: User User</p>
+      <p id="datepost">Fri Jul 30, 2016 10:00 pm</p></center>
+    </div>
+    </div>
+    <div class="col-md-9">
+    <textarea class="form-control" rows="6" placeholder="ใส่รายละเอียดข้อความ"> </textarea>
+  </div>
+</div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-9">
+      <label for="exampleInputFile">Upload <input type="file" id="exampleInputFile"></label>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-9">
+      <a href="viewpost.php"><button type="submit" class="btn btn-primary">Submit</button></a>
+        <button type="submit" class="btn btn-warning">Cancel</button>
+  </div>
+</div>
 
 
 
