@@ -50,9 +50,9 @@
     <div class="container">
       <h2>Main Forum</h2>
       <hr>
-<p>Home > Forums > Main Forum > <span class="breadcrumb"> View Post</span>  </p>
+<p>Home > Forums > Main Forum > <span class="breadcrumb">View Post</span>  </p>
 <div class="row">
-  <div class="col-md-12"><h3 class="nodeTitle">View Post</h3></div>
+  <div class="col-md-12"><h3 class="nodeTitle">View Post<button type="button" class="btn btn-warning" id="bookmark">Bookmark</button></h3></div>
 </div>
 <!-- Post Owner -->
 <div class="row">
